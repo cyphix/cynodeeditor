@@ -1,0 +1,29 @@
+Change Log
+
+07/14/2020 [develop]
+    - changed the window implementation to a "test" window since a real one needs to be developed
+    - created a main logging file to act as the parent of the logging settings
+    - few changes in graphics_view.py to change to logging
+    - created and began work on tooltip popup
+
+07/14/2020 [feature/tooltip_popup]
+    - added comments to the graphics_node.py
+    - changed a lot of logging methods
+    - made graphics_scene.py the parent of the tooltip widget
+    - added logic for graphics_view.py to be able to detect when a socket is being hovered and to do a warning check. if it needs to show the message, it makes the tooltip visible until it is no longer needed
+
+07/24/2020 [feature/tooltip_popup]
+    - moved event driven code for the sockets tooltip warning to its own method
+    - fix popup staying forever if released
+    - add icon for popup(still needs a selection of which)
+    - added set and reset methods to abstract more of the tooltip process
+    - Make warning not appear for origin socket
+
+09/17/2020 [develop]
+    - adding type annotations
+    - adding docstrings
+    - cleaning up code
+    - still need to do a couple files
+
+09/25/2020 [master]
+    - repackaged and reset the repo
